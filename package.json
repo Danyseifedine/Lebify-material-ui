@@ -1,13 +1,12 @@
 {
   "name": "lebify-materiel-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
     "start": "tsup"
   },
-
   "keywords": [],
   "author": "Dany seifeddine Hamza Ouweidat",
   "license": "MIT",
