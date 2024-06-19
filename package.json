@@ -1,0 +1,20 @@
+{
+  "name": "lebify-materiel-ui",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "tsup"
+  },
+
+  "keywords": [],
+  "author": "Dany seifeddine Hamza Ouweidat",
+  "license": "MIT",
+  "description": "Lebify-Material-UI is a UI component library designed to provide a range of UI elements like inputs, cards, and buttons ect . It utilizes custom class names to style components without the need for additional JavaScript or CSS. Simply apply a 'lebify' prefixed class to an element to style it according to the library's design system.",
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
