@@ -177,6 +177,61 @@ var components = {
     <span class="bar bar2"></span>
     <span class="bar bar1"></span>
     `,
+  custom_27: (text) => `
+    <div class="container">
+    <div class="folder folder_one"></div>
+    <div class="folder folder_two"></div>
+    <div class="folder folder_three"></div>
+    <div class="folder folder_four"></div>
+</div>
+<div class="active_line"></div>
+<span class="text">${text}</span>
+    `,
+  custom_28: (text) => `
+  <span class="button-content">${text}</span>`,
+  custom_30: (text) => `
+          <svg viewBox="0 0 448 512" class="svgIcon">
+            <path
+                d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z">
+            </path>
+        </svg>
+  `,
+  custom_31: (text) => `
+          <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+            <path
+                d="M874.690416 495.52477c0 11.2973-9.168824 20.466124-20.466124 20.466124l-604.773963 0 188.083679 188.083679c7.992021 7.992021 7.992021 20.947078 0 28.939099-4.001127 3.990894-9.240455 5.996574-14.46955 5.996574-5.239328 0-10.478655-1.995447-14.479783-5.996574l-223.00912-223.00912c-3.837398-3.837398-5.996574-9.046027-5.996574-14.46955 0-5.433756 2.159176-10.632151 5.996574-14.46955l223.019353-223.029586c7.992021-7.992021 20.957311-7.992021 28.949332 0 7.992021 8.002254 7.992021 20.957311 0 28.949332l-188.073446 188.073446 604.753497 0C865.521592 475.058646 874.690416 484.217237 874.690416 495.52477z">
+            </path>
+        </svg>
+        <span>${text}</span>
+  `,
+  custom_32: (text) => `
+          <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text">${text}
+        </span>
+  `,
+  custom_33: (text) => `
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 24">
+            <path d="m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z"></path>
+        </svg>
+        ${text}
+  `,
+  custom_34: (text) => `
+        ${text}
+        <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+          <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+        </svg>
+  `,
+  custom_35: (text) => `
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="20" height="20" stroke-linejoin="round"
+            stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" fill="none">
+            <path d="m19,21H5c-1.1,0-2-.9-2-2V5c0-1.1.9-2,2-2h11l5,5v11c0,1.1-.9,2-2,2Z" stroke-linejoin="round"
+                stroke-linecap="round" data-path="box"></path>
+            <path d="M7 3L7 8L15 8" stroke-linejoin="round" stroke-linecap="round" data-path="line-top"></path>
+            <path d="M17 20L17 13L7 13L7 20" stroke-linejoin="round" stroke-linecap="round" data-path="line-bottom">
+            </path>
+        </svg>
+  `,
   custom_51: (text) => `
         <span class="text">${text}</span><span class="icon"><svg
                           xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -851,6 +906,8 @@ var components = {
   // custom_19 is a default
   // custom_20 is a default
   // custom_22 is a default
+  // custom_26 is a default
+  // custom_29 is a default
   // custom_59 is a default
   // custom_60 is a default
   // custom_70 is a default
@@ -957,6 +1014,9 @@ document.addEventListener("DOMContentLoaded", () => {
     12: "Rewards",
     21: "Loading",
     23: "NEXT",
+    31: "Back",
+    33: "Unlock pro",
+    34: "Apply Now",
     51: "Delete",
     52: "Button",
     53: "Explore",
