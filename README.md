@@ -38,7 +38,7 @@ npm install lebify-material-ui
 
 To use the library, add the `lebify-btn-custom` class to any HTML element. The following example will add a default button with the Lebify Material UI design and animation
 
-- `lebify-btn-custom-1` to `lebify-btn-custom-72`: Buttons with different styles and animations.
+- `lebify-btn-custom-1` to `lebify-btn-custom-75`: Buttons with different styles and animations.
 
 ## Example:
 
